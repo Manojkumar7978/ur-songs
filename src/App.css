@@ -1,0 +1,12 @@
+.menu{
+    color: #d5d5d5;
+    font-weight: 700;
+}
+.menu:hover{
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.active{
+    color: white;
+}
