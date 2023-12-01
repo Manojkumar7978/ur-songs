@@ -12,7 +12,7 @@ export default function Sidebar() {
     let [activemenu, setactivemenu] = useState(1)
 
     return (
-        <Box w={'300px'}>
+        <Box w={'280px'}>
             <Box bg={'#121212'}
                 borderRadius={10}
                 p={5}
@@ -122,7 +122,6 @@ export default function Sidebar() {
                         transform:'scale(1.1)'
             }}
             mt={10}
-            mb={10}
                 leftIcon={<TbWorld size={20} />}
                 borderRadius={50}
                 >English</Button>
